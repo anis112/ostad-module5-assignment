@@ -224,11 +224,32 @@ ul {
 }
 
 .basic-thanks-message {
-    color: #c1c1c1;
+    color: #000;
+}
+
+#basic-minus-button {
+    font-size: var(--designer-name-font-size);  
+    padding: 5px 10px;
+}
+
+#basic-plus-button {
+    font-size: var(--designer-name-font-size);  
+    padding: 5px 10px;   
+}
+
+#pro-minus-button {
+    font-size: var(--designer-name-font-size);  
+    padding: 5px 10px;
+}
+
+#pro-plus-button {
+    font-size: var(--designer-name-font-size);  
+    padding: 5px 10px;   
 }
 
 .package-pricing {
-    font-size: var(--designer-name-font-size)
+    font-size: var(--designer-name-font-size);
+    padding: 5px 10px;   
 }
 
 .room-count, .packages-item ul>li p {

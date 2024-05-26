@@ -93,12 +93,11 @@
                             <li>Photography</li>
                             <li>20% furniture discount</li>
                             <li>Good deals</li>
-                            <li class="package-pricing"><img >&#x2b;</img>$199+ <p class="room-count"> 1 room </p></li>
+                            <li class="package-pricing"><button id="basic-minus-button" onclick="basic_minus_button()"> - </button> $199 <button id="basic-plus-button" onclick="basic_plus_button()"> + </button> <p class="room-count" id="basic-room-info"></p></li>
                             <li class="basic-sign-up">
-                                <input type="submit" id="basic-sign-up" value="Sign Up" />
-                                <p>Thank you for choosing 1 package</p>
-                            </li>
-                            
+                                <input type="submit" id="basic-sign-up" onclick="confirm_basic_package_selection()" value="Sign Up" />
+                                <p id="info-message-basic-package"></p>
+                            </li>                            
                         </ul>
                     </div>
                     <div class="packages-item">                        
@@ -109,8 +108,11 @@
                             <li>Photography</li>
                             <li>20% furniture discount</li>
                             <li>Good deals</li>
-                            <li class="package-pricing">-$249+ <p class="room-count"> 1 room </p> </li>
-                            <li class="pro-sign-up"><input type="submit" id="pro-sign-up" value="Sign Up" /></li>
+                            <li class="package-pricing"><button id="pro-minus-button" onclick="pro_minus_button()"> - </button> $298 <button id="pro-plus-button" onclick="pro_plus_button()"> + </button> <p class="room-count" id="pro-room-info"></p></li>
+                            <li class="pro-sign-up">
+                                <input type="submit" id="pro-sign-up" onclick="confirm_pro_package_selection()" value="Sign Up" />
+                                <p id="info-message-pro-package"></p>
+                            </li>
                         </ul>
                     </div>                                                          
                 </div>
