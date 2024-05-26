@@ -93,9 +93,9 @@
                             <li>Photography</li>
                             <li>20% furniture discount</li>
                             <li>Good deals</li>
-                            <li class="package-pricing">-$199+ <p class="room-count"> 1 room </p></li>
+                            <li class="package-pricing"><img >&#x2b;</img>$199+ <p class="room-count"> 1 room </p></li>
                             <li class="basic-sign-up">
-                                <input type="submit" value="Sign Up" />
+                                <input type="submit" id="basic-sign-up" value="Sign Up" />
                                 <p>Thank you for choosing 1 package</p>
                             </li>
                             
@@ -110,7 +110,7 @@
                             <li>20% furniture discount</li>
                             <li>Good deals</li>
                             <li class="package-pricing">-$249+ <p class="room-count"> 1 room </p> </li>
-                            <li class="pro-sign-up"><input type="submit" value="Sign Up" /></li>
+                            <li class="pro-sign-up"><input type="submit" id="pro-sign-up" value="Sign Up" /></li>
                         </ul>
                     </div>                                                          
                 </div>
@@ -121,16 +121,16 @@
                     Do you want us to style your home? Fill out the form and fill me with the details. We love meeting new people
                     <div class="contact-form">
                         <form action="#">
-                          <label for="fname">Name</label>
-                          <input type="text" id="fname" name="firstname" placeholder="Your Name..">
+                          <label for="name">Name</label>
+                          <input type="text" id="name" name="name" placeholder="Your Name..">
                       
-                          <label for="lname">Email</label>
+                          <label for="email">Email</label>
                           <input type="text" id="email" name="email" placeholder="Your Email..">
                       
-                          <label for="lname">Message</label>
-                          <input type="text" id="lname" name="message" placeholder="Message..">
-                        
-                          <input type="submit" value="Send Message">
+                          <label for="message">Message</label>
+                          <input type="text" id="message" name="message" placeholder="Message..">
+                          
+                          <input type="submit" id="btn-send-message" onclick="validate()" value="Send Message" />
                         </form>
                       </div>
                 </div>
@@ -138,6 +138,6 @@
         </div>            
         <div class="item footer"></div>     
     </div>
+    <script src="script.js" > </script>
 </body>
-
 </html>
