@@ -34,6 +34,10 @@
     font-family: var(--font-family);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .item {
     background-color: var(--background-color);
 }
@@ -42,7 +46,9 @@
     grid-column-start: 1;
     grid-column-end: 1;
     background-color: var(--menu-background-color);
-    height: 700px;
+    height: 75%;
+    width: 20%;
+    position: fixed;
 }
 
 ul {
@@ -67,6 +73,10 @@ ul {
     color: var(--menu-color);
     font-size: var(--logo-font-size);
     font-weight: bold;
+}
+
+.company-logo p {
+    margin-top: 0px;
 }
 
 .banner {
@@ -111,7 +121,6 @@ ul {
     row-gap: 2px;
     column-gap: 5px;
     height: auto;
-
 }
 
 .showcase-item {
@@ -267,9 +276,8 @@ ul {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-  }
-  
-  
+}
+
 .contact-form input[type=submit] {
     width: 100%;
     background-color: var(--menu-background-color);
@@ -280,11 +288,11 @@ ul {
     border-radius: 4px;
     cursor: pointer;
 }
-  
+
 .contact-form input[type=submit]:hover {
     background-color: #45a049;
 }
-  
+
 .contact-form div {
     border-radius: 5px;
     background-color: #f2f2f2;

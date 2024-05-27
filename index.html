@@ -9,19 +9,19 @@
 <body>
     <div class="container">
         <div class="item left-menu">
-            <div class="company-logo">The Company</div>
+            <div class="company-logo">The<p>Company</p></div>
             <ul>
-                <li><a href="#" id="home">Home</a></li>
-                <li><a href="#" id="showcase-link">Showcase</a></li>
-                <li><a href="#" id="services-link">Services</a></li>
-                <li><a href="#" id="designer-link">Designers</a></li>
-                <li><a href="#" id="packages-link">Packages</a></li>
-                <li><a href="#" id="contact-link">Contact</a></li>
+                <li><a href="index.html" id="home">Home</a></li>
+                <li><a href="#showcase-panel" id="showcase-link">Showcase</a></li>
+                <li><a href="#services-panel" id="services-link">Services</a></li>
+                <li><a href="#designers-panel" id="designer-link">Designers</a></li>
+                <li><a href="#packages-panel" id="packages-link">Packages</a></li>
+                <li><a href="#contact-form-panel" id="contact-link">Contact</a></li>
             </ul>
         </div>
         <div class="item content-panel">
             <div class="banner">Interior Design</div>
-            <div class="content">
+            <div id="showcase-panel" class="content">
                 <div class="content-title">Showcase.<p class="underline"><img src="images/underline.jpg" /></p></div>
                 <div class="content-items showcase-panel">                   
                     <div class="showcase-item">
@@ -44,14 +44,14 @@
                     </div>                    
                 </div>
             </div>
-            <div class="content">                
+            <div id="services-panel" class="content">                
                 <div class="content-title">Services<p class="underline"><img src="images/underline.jpg" /></p></div>
                 <div class="content-items">
                     <p>We are a interior design service provider in the country. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos vitae dolor provident asperiores, deserunt dolores, debitis tempore cupiditate nisi eveniet facilis. Corrupti recusandae vitae quidem laboriosam! Eaque sint eligendi repudiandae!</p>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum ipsa eveniet accusantium dignissimos laborum dicta, illo numquam autem veritatis aliquam esse tempora officiis alias ducimus ad id laboriosam qui quod?Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum sed recusandae voluptatum. Similique distinctio dignissimos quia quasi aliquid, illo itaque quibusdam perferendis odit libero placeat ad alias recusandae ipsam saepe!lor</p>
                 </div>
             </div>
-            <div class="content">
+            <div id="designers-panel" class="content">
                 <div class="content-title">Designers.<p class="underline"><img src="images/underline.jpg" /></p></div>
                 <div class="content-items">
                     <p>The best team in the world</p>
@@ -79,7 +79,7 @@
                     </div>                                      
                 </div>
             </div>            
-            <div class="content">                
+            <div id="packages-panel" class="content">                
                 <div class="content-title">Packages<p class="underline"><img src="images/underline.jpg" /></p></div>
                 <div class="content-items">                    
                     <p>Some text our prices. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum ipsa eveniet accusantium dignissimos laborum dicta, illo numquam autem veritatis aliquam esse tempora officiis alias ducimus ad id laboriosam qui quod?Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum sed recusandae voluptatum. Similique distinctio dignissimos quia quasi aliquid, illo itaque quibusdam perferendis odit libero placeat ad alias recusandae ipsam saepe!lor</p>
@@ -93,7 +93,7 @@
                             <li>Photography</li>
                             <li>20% furniture discount</li>
                             <li>Good deals</li>
-                            <li class="package-pricing"><button id="remove-basic-package"> - </button> $ <span id="basic-total-price"></span> <button id="add-basic-package"> + </button> <p class="room-count" id="basic-room-info"></p></li>
+                            <li class="package-pricing"><button id="remove-basic-package"> - </button> $<span id="basic-total-price"></span> <button id="add-basic-package"> + </button> <p class="room-count" id="basic-room-info"></p></li>
                             <li class="basic-sign-up">
                                 <input type="submit" id="basic-sign-up" onclick="confirm_basic_package_selection()" value="Sign Up" />
                                 <p id="info-message-basic-package"></p>
@@ -108,7 +108,7 @@
                             <li>Photography</li>
                             <li>20% furniture discount</li>
                             <li>Good deals</li>
-                            <li class="package-pricing"><button id="remove-pro-package"> - </button> $ <span id="pro-total-price"></span> <button id="add-pro-package"> + </button> <p class="room-count" id="pro-room-info"></p></li>
+                            <li class="package-pricing"><button id="remove-pro-package"> - </button> $<span id="pro-total-price"></span> <button id="add-pro-package"> + </button> <p class="room-count" id="pro-room-info"></p></li>
                             
                             <li class="pro-sign-up">
                                 <input type="submit" id="pro-sign-up" onclick="confirm_pro_package_selection()" value="Sign Up" />
@@ -118,7 +118,7 @@
                     </div>                                                          
                 </div>
             </div>
-            <div class="content">                
+            <div id="contact-form-panel" class="content">                
                 <div class="content-title">Contact<p class="underline"><img src="images/underline.jpg" /></p></div>
                 <div class="content-items">
                     Do you want us to style your home? Fill out the form and fill me with the details. We love meeting new people
